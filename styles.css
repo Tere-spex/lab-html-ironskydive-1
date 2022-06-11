@@ -81,7 +81,6 @@ section{
     justify-content: center;
     padding: 25px;;
 }
-
 .section2 h3{
   padding: 10px;
 }
@@ -119,6 +118,9 @@ table{
     flex-direction: column;
     margin: 25px;
     padding: 25px;
+}
+.p-S{
+    display: none;
 }
 button{
     background-color: rgb(93, 131, 237);
@@ -219,5 +221,13 @@ map iframe{
         width: 70%;
         height: 70%;
     }
-    
+    .p-G{
+        display: none;
+    }
+    .p-S{
+        display: inline;
+        border: none;
+        margin: 6px;
+        padding: 7px;
+    }
 }
